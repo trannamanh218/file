@@ -40,7 +40,7 @@
   color: #eee5fe;
 }
 .brb-items-left {
-  background: #e8e8f6;
+  background: #f7f7fc;
   border-radius: 60px 0px 0px 0px;
   padding: 80px 50px 0px 50px;
 }
@@ -307,7 +307,7 @@
   border-radius: 22.2222px;
 }
 .reading-goal .border-reading-goal {
-  border: 5px solid rgba(238, 229, 254, 1);
+  border: 8.5px solid rgba(238, 229, 254, 1);
   width: 280px;
   height: 280px;
   display: flex;
@@ -342,6 +342,14 @@
   background: #eee5fe;
   border-radius: 32px;
   border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #3c0594;
 }
 /*footer*/
 footer {
