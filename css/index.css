@@ -224,6 +224,9 @@
   margin-bottom: 71px;
   align-items: center;
 }
+.option-brb-items-right .bell-option-brb-items-rightt, .option-brb-items-right .bell-option-brb-items-right, .option-brb-items-right .user-option-brb-items-right {
+  cursor: pointer;
+}
 .listen-a-lot-brb-items-right .title-listen-a-lot p {
   font-weight: 700;
   font-size: 30px;
