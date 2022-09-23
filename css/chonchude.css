@@ -1,0 +1,119 @@
+.topic {
+  display: flex;
+  justify-content: space-between;
+}
+.topic .left-topic {
+  width: 60%;
+  margin: 180px 0px 20px 0px;
+}
+.topic .left-topic .title-left-topic,
+.topic .left-topic .text-left-topic {
+  margin: 0px 150px;
+}
+.topic .left-topic .title-left-topic p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  letter-spacing: 1px;
+  color: #fcfcfc;
+  margin-bottom: 40px;
+}
+.topic .left-topic .text-left-topic p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  /* or 140% */
+  letter-spacing: 1px;
+  /* Grayscale / Off-white */
+  color: #fcfcfc;
+  margin-bottom: 40px;
+}
+.topic .left-topic .img-left-topic {
+  width: 80%;
+  margin: auto;
+}
+.topic .left-topic .img-left-topic img {
+  width: 100%;
+}
+.topic .right-topic {
+  width: 40%;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px 10px 0px;
+}
+.topic .right-topic .seach-right-topic {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+.topic .right-topic .seach-right-topic input {
+  font-size: 20px;
+  width: 100%;
+  padding: 15px 80px 15px 80px;
+  background: #eff0f7;
+  border-radius: 16px;
+  border: none;
+}
+.topic .right-topic .seach-right-topic .icon-seach-right-topic {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+.topic .right-topic .topic-list {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+  text-align: center;
+}
+.topic .right-topic .topic-list .items-topic {
+  list-style: none;
+  width: 33.333%;
+}
+.topic .right-topic .topic-list .items-topic a img {
+  transition: 0.5s;
+  margin-top: 76px;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+}
+.topic .right-topic .topic-list .items-topic a img:hover {
+  background: #eee5fe;
+  border-radius: 50%;
+}
+.topic .right-topic .topic-list .items-topic a p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.5501px;
+  line-height: 24px;
+  letter-spacing: 0.375963px;
+  color: #a0a3bd;
+}
+.topic .right-topic .bottom-right-topic {
+  background: #3d40c6;
+  border-radius: 96px;
+  width: 78%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+  cursor: pointer;
+}
+.topic .right-topic .bottom-right-topic span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #f7f7fc;
+}

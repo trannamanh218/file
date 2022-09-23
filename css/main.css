@@ -1,0 +1,41 @@
+@font-face {
+  font-family: SVN-Gilroy-regular;
+  src: url("../fonts/SVN-Gilroy\ Regular.otf");
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "SVN-Gilroy-regular", "Times New Roman", Times, serif;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  position: relative;
+  max-width: 1920px;
+  background: #4a4de3;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+/* [class*="col-"] {
+  margin: 0px;
+  padding: 0px;
+} */
+.dp-flex {
+  display: flex;
+}
+.row>* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  width: 100%;
+}
+.sp-between {
+  justify-content: space-between;
+}

@@ -1,0 +1,149 @@
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login .left-login {
+  width: 60%;
+  text-align: center;
+}
+.login .left-login .title-left-login p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  /* or 128% */
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.login .right-login {
+  width: 40%;
+  margin: 10px 10px 10px 0px;
+  padding: 140px 0px;
+  text-align: center;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login .right-login .title-right-login p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  /* or 140% */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  /* Grayscale / Ash */
+  color: #262338;
+  margin-bottom: 62px;
+}
+.login .right-login .facebook-right-login {
+  background: #4666d5;
+  border-radius: 40px;
+  border: none;
+  width: 57%;
+  height: 56px;
+  position: relative;
+  margin-bottom: 20px;
+  cursor:pointer;
+}
+.login .right-login .facebook-right-login .img-facebook-right-login {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+.login .right-login .facebook-right-login span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+
+  /* Grayscale / Background */
+  color: #f7f7fc;
+}
+
+.login .right-login .gmail-right-login {
+  background: #eff0f7;
+  border-radius: 40px;
+  border: none;
+  width: 57%;
+  height: 56px;
+  position: relative;
+  margin-bottom: 20px;
+  cursor:pointer;
+}
+.login .right-login .gmail-right-login .img-gmail-right-login {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+.login .right-login .gmail-right-login span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+  /* Grayscale / Background */
+  color: #4e4b66;
+}
+.login .right-login .bottom-bizbooks-right-login {
+  background: #4666d5;
+  border-radius: 40px;
+  border: none;
+  width: 57%;
+  height: 56px;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  cursor:pointer;
+}
+.login .right-login .bottom-bizbooks-right-login span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+  color: #fcfcfc;
+}
+
+.login .right-login .no-account-login {
+  margin-bottom: 62px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  text-align: center;
+  letter-spacing: 0.75px;
+  /* Grayscale / Body */
+  color: #4e4b66;
+}
+.login .right-login .no-account-login p a {
+  color: rgb(29, 159, 240);
+  text-decoration: revert;
+}
+.login .right-login .bottom-skip-login {
+  display: flex;
+  text-decoration: none;
+}
+.login .right-login .bottom-skip-login .text-bottom-skip-login {
+  margin-right: 10px;
+  /* Desktop / Link Small */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  letter-spacing: 0.75px;
+  /* Primary/Default */
+  color: #3d40c6;
+}
+.login .right-login .bottom-skip-login .icon-bottom-skip-login {
+  margin-top: 2px;
+}
