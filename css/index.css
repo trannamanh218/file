@@ -119,12 +119,19 @@
   line-height: 32px;
   letter-spacing: 1px;
   color: #6e7191;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 .index-progress {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10px;
+  font-weight: 400;
+font-size: 17px;
+line-height: 34px;
+display: flex;
+align-items: center;
+letter-spacing: 0.75px;
+color: #A0A3BD;
 }
 .progress-bar {
   background: linear-gradient(95.08deg, #C566FF 2.49%, #5C00B9 97.19%);
