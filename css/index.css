@@ -121,6 +121,14 @@
   color: #6e7191;
   margin-bottom: 28px;
 }
+.index-progress {
+  display: flex;
+  justify-content: flex-end;
+}
+.progress-bar {
+  background: linear-gradient(95.08deg, #C566FF 2.49%, #5C00B9 97.19%);
+  border-radius: 10px;
+}
 .progress {
   margin-bottom: 28px;
 }
@@ -231,7 +239,7 @@
 }
 .listen-a-lot-brb-items-right .title-listen-a-lot p {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 33px;
   line-height: 40px;
   letter-spacing: 1px;
   color: #262338;
@@ -244,7 +252,7 @@
   margin-bottom: 20px;
 }
 .right-books-listen-a-lott {
-  margin-right: 20px;
+  margin-right: 10px;
   position: relative;
 }
 .books-listen-a-lot {
@@ -264,15 +272,35 @@
   letter-spacing: 0.75px;
   color: #6e7191;
 }
+.evaluate-book {
+  align-items: center;
+}
 .evaluate-book > img {
   width: 20px;
 }
+.evaluate-book>p {
+  margin-left: 10px;
+}
 .left-books-listen-a-lott .title-book-topic a p {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 32px;
-  letter-spacing: 1px;
-  color: #262338;
+  font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+letter-spacing: 1px;
+
+/* Grayscale / Ash */
+
+color: #262338;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 }
 .left-books-listen-a-lott .author-book {
   font-weight: 600;
@@ -280,7 +308,7 @@
   line-height: 34px;
   letter-spacing: 0.75px;
   color: #a0a3bd;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .items-suggested-book {
@@ -322,7 +350,7 @@
 .reading-goal .border-reading-goal .number-of-pages {
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 64px;
   text-align: center;
   letter-spacing: 1px;
