@@ -1,9 +1,20 @@
+@font-face {
+  font-family: SVN-Gilroy-regular;
+  src: url("../fonts/SVN-Gilroy\ Regular.otf");
+}
+
+@font-face {
+  font-family: SVN-Gilroy-Bold;
+  src: url("../fonts/SVN-Gilroy\ Bold.otf");
+}
 
 body {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: "SVN-Gilroy-Bold", "Times New Roman", Times, serif;
 }
+
 p {
   margin: 0px;
   padding: 0px;
@@ -24,7 +35,7 @@ a {
 .dp-flex {
   display: flex;
 }
-.row>* {
+.row > * {
   margin: 0px;
   padding: 0px;
 }
