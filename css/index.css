@@ -47,9 +47,13 @@
   transition: 0.25s;
   border-radius: 100px 0px 0px 100px;
 }
-.box-left-biboo a:hover{
+.box-left-biboo>a:hover{
   background: #FCFCFC;
   border-radius: 100px 0px 0px 100px;
+}
+.box-left-biboo>a:hover p {
+color: #262338;
+
 }
 .brb-items-left {
   background: #f7f7fc;
@@ -255,6 +259,28 @@
   margin-right: 10px;
   border-radius: 4px;
   overflow: hidden;
+}
+.caroseo-brb-items {
+  position: relative;
+}
+.button-icon-right, .button-icon-left{
+  border: none;
+  background: #EFF0F7;
+  padding: 13px 20px;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+.button-icon-right {
+  position: absolute;
+  top: 45%;
+  left: 208px;
+  z-index: 1;
+}
+.button-icon-left {
+  position: absolute;
+  top: 45%;
+  right: 187px;
+  z-index: 1;
 }
 /*right*/
 .brb-items-right {
@@ -619,26 +645,4 @@ hr {
   font-size: 17px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.64);
-}
-.caroseo-brb-items {
-  position: relative;
-}
-.button-icon-right, .button-icon-left{
-  border: none;
-  background: #EFF0F7;
-  padding: 13px 20px;
-  border-radius: 50%;
-  opacity: 0.6;
-}
-.button-icon-right {
-  position: absolute;
-  top: 45%;
-  left: 208px;
-  z-index: 1;
-}
-.button-icon-left {
-  position: absolute;
-  top: 45%;
-  right: 187px;
-  z-index: 1;
 }
