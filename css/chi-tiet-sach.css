@@ -101,7 +101,7 @@
   margin-bottom: 24px;
 }
 .details-biboo {
-  background: #F7F7FC;
+  background: #f7f7fc;
 }
 .book-details-biboo .right-book-details-biboo .author-book-details-biboo {
   font-family: SVN-Gilroy-regular;
@@ -240,7 +240,7 @@
   color: #6e7191;
 }
 .book-details-details-biboo .introduce-book {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 .book-details-details-biboo .introduce-book .title {
   font-family: SVN-Gilroy-regular;
@@ -260,4 +260,171 @@
   line-height: 40px;
   letter-spacing: 1px;
   color: #6e7191;
+}
+.Table-of-contents {
+  width: 78%;
+  margin: auto;
+}
+.accordion {
+  --bs-accordion-bg: none;
+  --bs-accordion-border-radius: none;
+  --bs-accordion-border-width: none;
+}
+.accordion-item {
+  border-bottom: 1px solid #d9dbe9;
+}
+.accordion-button {
+  --bs-accordion-active-color: none;
+  --bs-accordion-active-bg: none;
+  --bs-accordion-btn-focus-box-shadow: none;
+  padding: 60px 0px 30px 0px;
+}
+.paragraph {
+  background: linear-gradient(
+    95.08deg,
+    rgba(227, 247, 255, 0.4) 2.49%,
+    rgba(255, 216, 195, 0.4) 97.19%
+  );
+  padding: 40px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+.accordion-header > .accordion-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #262338;
+}
+.paragraph > .title {
+  font-family: SVN-Gilroy-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #4e4b66;
+  width: 76%;
+  margin-bottom: 64px;
+}
+.option-paragraph {
+  display: flex;
+  justify-content: flex-end;
+}
+.option-paragraph .read-a-book {
+  background: none;
+  border: 1px solid;
+  font-family: SVN-Gilroy-regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.75px;
+  color: rgba(0, 199, 255, 1);
+  border-radius: 100px;
+  width: 200px;
+  height: 66px;
+}
+.option-paragraph .listen-radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3d40c6;
+  width: 239.25px;
+  height: 66px;
+  border: none;
+  border-radius: 39.6px;
+  margin-left: 30px;
+}
+.option-paragraph .listen-radio span {
+  font-family: SVN-Gilroy-regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #fcfcfc;
+}
+.paragraph-three > .title {
+  font-family: SVN-Gilroy-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #a0a3bd;
+}
+.paragraph-three > .option-paragraph {
+  width: 100%;
+  justify-content: space-between;
+}
+.paragraph-three > .option-paragraph > .key-Paragraph {
+  display: flex;
+  align-items: center;
+}
+.paragraph-three > .option-paragraph > .key-Paragraph > .text-key-paragraph {
+  font-family: SVN-Gilroy-regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.75px;
+  color: #e60000;
+  margin-left: 20px;
+}
+.paragraph-three > .option-paragraph > .listen-radio {
+  width: 436px;
+  height: 73px;
+  background: #ff4c4d;
+}
+
+
+.paragraph-four > .title {
+  font-family: SVN-Gilroy-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #D9DBE9;
+}
+.paragraph-four > .option-paragraph {
+  width: 100%;
+  justify-content: space-between;
+}
+.paragraph-four > .option-paragraph > .key-Paragraph {
+  display: flex;
+  align-items: center;
+}
+.paragraph-four > .option-paragraph > .key-Paragraph > .text-key-paragraph {
+  font-family: SVN-Gilroy-regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.75px;
+  color: #D9DBE9;
+  margin-left: 20px;
+}
+.paragraph-four > .option-paragraph > .listen-radio {
+  width: 436px;
+  height: 73px;
+  background: #D9DBE9;
+}
+.paragraph-five>.option-paragraph>.read-a-book {
+  border: none;
+  color: #6E7191;
 }
