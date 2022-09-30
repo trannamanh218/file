@@ -428,3 +428,11 @@
   border: none;
   color: #6E7191;
 }
+.details-biboo .suggested-book {
+  width: 78%;
+  margin: auto;
+  padding: 72px 0px 0px 0px;
+}
+.details-biboo .suggested-book .box-suggested-book {
+  padding-bottom: 20px;
+}

@@ -24,36 +24,42 @@
 .listen-radio > .navigation-bar-radio > .left-come-back {
   cursor: pointer;
 }
-.listen-radio > .navigation-bar-radio > .right-option>.dropdown>.dropdown-toggle {
-   background: none;
-   border: none;
-   font-size: 50px;
-} 
-.right-option>.dropdown>.dropdown-menu {
-    width: 327px;
-    border: none;
-    background: #FCFCFC;
-    border-radius: 16px;
+.listen-radio
+  > .navigation-bar-radio
+  > .right-option
+  > .dropdown
+  > .dropdown-toggle {
+  background: none;
+  border: none;
+  font-size: 50px;
+}
+.right-option > .dropdown > .dropdown-menu {
+  width: 327px;
+  border: none;
+  background: #fcfcfc;
+  border-radius: 16px;
+  margin-top: 20px !important;
+  padding: 0px !important;
 }
 .dropdown-toggle::after {
-    display: none;
+  display: none;
 }
-.right-option>.dropdown>.dropdown-menu>li>.dropdown-item{
-   display: flex;
-   padding: 15px 10px 15px 30px;
-   align-items: center;
+.right-option > .dropdown > .dropdown-menu > li > .dropdown-item {
+  display: flex;
+  padding: 15px 10px 15px 30px;
+  align-items: center;
 }
-.right-option>.dropdown>.dropdown-menu>li>.dropdown-item>.icon{
-    margin-right: 20px;
+.right-option > .dropdown > .dropdown-menu > li > .dropdown-item > .icon {
+  margin-right: 20px;
 }
-.right-option>.dropdown>.dropdown-menu>li>.dropdown-item>.text{
-    font-family: SVN-Gilroy-regular;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 38px;
-    letter-spacing: 0.75px;
-    color: #262338;
+.right-option > .dropdown > .dropdown-menu > li > .dropdown-item > .text {
+  font-family: SVN-Gilroy-regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  color: #262338;
 }
 .listen-radio .img-listen-radio {
   width: 385.94px;
@@ -146,15 +152,19 @@
 .dropup .dropdown-toggle::after {
   display: none;
 }
-.speed .icon-speed .dropup .dropdown-menu {
+.speed > .icon-speed > .dropup > .dropdown-menu,
+.timer .icon-timer .dropup .dropdown-menu {
   border-radius: 16px;
   border: none;
   box-shadow: 0px -12px 40px rgba(61, 64, 198, 0.08);
   background: #fcfcfc;
-  padding: 10px 0px;
+  padding: 10px 0px 10px 0px;
   text-align: center;
+  margin-bottom: 30px !important;
+  width: 216px;
 }
-.speed .icon-speed .dropup .dropdown-menu > li > p {
+.speed .icon-speed .dropup .dropdown-menu > li > p,
+.timer .icon-timer .dropup .dropdown-menu > li > p {
   font-family: SVN-Gilroy-regular;
   font-style: normal;
   font-weight: 600;
@@ -163,10 +173,11 @@
   text-align: center;
   letter-spacing: 0.75px;
   color: #262338;
-  border-bottom: 1px solid #D9DBE9;
+  border-bottom: 1px solid #d9dbe9;
   padding-bottom: 10px;
 }
-.speed .icon-speed .dropup .dropdown-menu > li > a {
+.speed .icon-speed .dropup .dropdown-menu > li > a,
+.timer .icon-timer .dropup .dropdown-menu > li > a {
   padding: 5px 100px;
   font-family: SVN-Gilroy-regular;
   font-style: normal;
@@ -176,23 +187,47 @@
   text-align: center;
   letter-spacing: 0.75px;
   color: rgba(160, 163, 189, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.dropdown-item:hover {
-  color: #262338;
-  background: #c19cfc;
-  opacity: 0.3;
+.speed > .icon-speed > .dropup > .dropdown-menu > li > .dropdown-item:hover {
+  background: #efe8fc;
+  color: #262338 !important;
 }
-
+.timer .icon-timer .dropup .dropdown-menu > li > .dropdown-item:hover {
+  background: #efe8fc;
+  color: #262338 !important;
+}
 .footer .center-footer {
-    justify-content: space-between;
-    width: 24%;
+  justify-content: space-between;
+  width: 24%;
+}
+.timer .icon-timer .dropup .dropdown-toggle {
+  border: none;
+  background: none;
+}
+.footer .right-footer .table-of-contents .icon-table-of-contents > img {
+  width: 32px;
+  height: 32px;
+}
+.center-footer > .replay-left,
+.center-footer > .skip-left,
+.center-footer > .center-play,
+.center-footer > .skip-right,
+.center-footer > .replay-right {
+  cursor: pointer;
+}
+.right-footer .table-of-contents {
+  margin-left: 64px;
 }
 
-.footer .right-footer .timer .icon-timer>img {
-    width: 40px;
-    height: 40px;
+.range {
+  width: 65%;
 }
-.footer .right-footer .table-of-contents .icon-table-of-contents>img {
-    width: 32px;
-    height: 32px;
+.range > div {
+  width: 100%;
+  height: 8px;
+  background-color: rgb(238, 213, 244);
+  border-radius: 20px;
 }

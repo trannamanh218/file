@@ -18,75 +18,88 @@
     />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/player.css" />
+    <link rel="stylesheet" href="scss/player.scss" />
   </head>
   <body>
     <div class="container">
       <div class="listen-radio">
         <div class="navigation-bar-radio">
           <div class="left-come-back">
-            <img src="img/Back Arrow.png" alt="">
+            <img src="img/Back Arrow.png" alt="" />
           </div>
           <div class="right-option">
             <div class="dropdown">
-              <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button
+                class="dropdown-toggle acb"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 ...
               </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">
-                  <div class="icon">
-                    <img src="img/Actions Plus.png" alt="">
-                  </div>
-                  <div class="text">
-                    Thêm và thư viện
-                  </div>
-                </a></li>
-                <li><a class="dropdown-item" href="#">
-                  <div class="icon">
-                    <img src="img/Comment.png" alt="">
-                  </div>
-                  <div class="text">
-                    Viết bài đánh giá
-                  </div>
-                </a></li>
-                <li><a class="dropdown-item" href="#">
-                  <div class="icon">
-                    <img src="img/chia-se.png" alt="">
-                  </div>
-                  <div class="text">
-                    Chia sẻ
-                  </div>
-                </a></li>
+              <ul class="dropdown-menu" style="margin-bottom: 80px">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="icon">
+                      <img src="img/Actions Plus.png" alt="" />
+                    </div>
+                    <div class="text">Thêm và thư viện</div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="icon">
+                      <img src="img/Comment.png" alt="" />
+                    </div>
+                    <div class="text">Viết bài đánh giá</div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="icon">
+                      <img src="img/chia-se.png" alt="" />
+                    </div>
+                    <div class="text">Chia sẻ</div>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
         <div class="img-listen-radio">
-          <img src="img/Sách.png" alt="">
+          <img src="img/Sách.png" alt="" />
         </div>
         <div class="information-listen-radio">
           <div class="title">Chương 01: Bàn về kế hoạch cuộc sống của b..</div>
-          <div class="text">Đoạn 01: Lời mở đầu - Cách cuộc sống vận hành và nh..</div>
+          <div class="text">
+            Đoạn 01: Lời mở đầu - Cách cuộc sống vận hành và nh..
+          </div>
         </div>
-        <div class="ranger">
-          thanh ranger
+        <div class="range">
+          <div></div>
         </div>
       </div>
       <div class="footer">
         <div class="left-footer">
           <div class="ebook">
             <div class="icon-ebook">
-              <img src="img/Read Book2.png" alt="">
+              <img src="img/Read Book2.png" alt="" />
             </div>
             <div class="text-ebook">Ebook</div>
           </div>
           <div class="speed">
             <div class="icon-speed">
               <div class="dropup-center dropup">
-                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button
+                  class="dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   <span>1x</span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><p class="dropdown-item title">Tốc độ nghe</p></li>
+                  <li><p class="title">Tốc độ nghe</p></li>
                   <li><a class="dropdown-item" href="#">0.75</a></li>
                   <li><a class="dropdown-item" href="#">1x</a></li>
                   <li><a class="dropdown-item" href="#">1.25x</a></li>
@@ -102,35 +115,52 @@
         </div>
         <div class="center-footer">
           <div class="replay-left">
-            <img src="img/ic_replay_30.png" alt="">
+            <img src="img/ic_replay_30.png" alt="" />
           </div>
           <div class="skip-left">
-            <img src="img/ic_skip_previous.png" alt="">
+            <img src="img/ic_skip_previous.png" alt="" />
           </div>
           <div class="center-play">
-            <img src="img/Play.png" alt="">
+            <img src="img/Play.png" alt="" />
           </div>
           <div class="skip-right">
-            <img src="img/ic_skip_next.png" alt="">
+            <img src="img/ic_skip_next.png" alt="" />
           </div>
           <div class="replay-right">
-            <img src="img/ic_forward_30.png" alt="">
+            <img src="img/ic_forward_30.png" alt="" />
           </div>
         </div>
         <div class="right-footer">
           <div class="timer">
             <div class="icon-timer">
-              <img src="img/timer-flash-line.png" alt="">
+              <div class="dropup-center dropup">
+                <button
+                  class="dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="img/timer-flash-line.png" alt="" />
+                </button>
+                <ul class="dropdown-menu">
+                  <li><p class="title">Hẹn giờ tắt</p></li>
+                  <li><a class="dropdown-item" href="#">Hết phần</a></li>
+                  <li><a class="dropdown-item" href="#">Hết chương</a></li>
+                  <li><a class="dropdown-item" href="#">120 Phút</a></li>
+                  <li><a class="dropdown-item" href="#">60 Phút</a></li>
+                  <li><a class="dropdown-item" href="#">45 Phút</a></li>
+                  <li><a class="dropdown-item" href="#">30 Phút</a></li>
+                  <li><a class="dropdown-item" href="#">15 Phút</a></li>
+                </ul>
+              </div>
             </div>
             <div class="text-timer">Hẹn giờ</div>
           </div>
           <div class="table-of-contents">
             <div class="icon-table-of-contents">
-              <img src="img/Playlist.png" alt="">
+              <img src="img/Playlist.png" alt="" />
             </div>
-            <div class="text-table-of-contents">
-              Mục lục
-            </div>
+            <div class="text-table-of-contents">Mục lục</div>
           </div>
         </div>
       </div>
