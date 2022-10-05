@@ -31,13 +31,14 @@
 }
 .main-question > .list-question > ul > li > button {
   border: 1.29437px solid #d9dbe9;
+  font-family: SVN-Gilroy-regular;
   border-radius: 5.17749px;
   width: 111.32px;
   height: 41.42px;
   background: none;
   font-style: normal;
   font-weight: 700;
-  font-size: 21px;
+  font-size: 22.0043px;
   line-height: 31px;
   color: #a0a3bd;
 }
@@ -46,13 +47,13 @@
   color: #fcfcfc;
 }
 .main-question > .list-question > ul > li:nth-child(3) > button {
-    background: #00CC67;
-    color: #fcfcfc;
-  }
-  .main-question > .list-question > ul > li:nth-child(4) > button {
-    background: #FF4C4D;
-    color: #fcfcfc;
-  }
+  background: #00cc67;
+  color: #fcfcfc;
+}
+.main-question > .list-question > ul > li:nth-child(4) > button {
+  background: #ff4c4d;
+  color: #fcfcfc;
+}
 .main-question > .text-question {
   width: 60%;
   margin: auto;
@@ -71,7 +72,7 @@
   line-height: 38px;
   text-align: center;
   letter-spacing: 0.75px;
-  color: #4e4b66;
+  color: rgba(78, 75, 102, 1);
 }
 .main-question > .answer-choice {
   padding: 0px;
@@ -95,11 +96,12 @@
 }
 .main-question > .answer-choice > li > .text-answer-choice {
   font-style: normal;
+  font-family: SVN-Gilroy-regular;
   font-weight: 600;
   font-size: 20px;
   line-height: 38px;
   letter-spacing: 0.75px;
-  color: #262338;
+  color: #060606;
   width: 90%;
 }
 .main-question > .answer-choice > li > .icon-answer-choice {
@@ -134,8 +136,11 @@
   border: none;
   width: 706.4px;
   height: 72px;
+}
+.footer > .button-center > span {
+  font-family: SVN-Gilroy-Regular;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 21.6px;
   line-height: 35px;
   text-align: center;
