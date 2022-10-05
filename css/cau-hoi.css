@@ -35,7 +35,6 @@
   width: 111.32px;
   height: 41.42px;
   background: none;
-  font-family: SVN-Gilroy-regular;
   font-style: normal;
   font-weight: 700;
   font-size: 21px;
@@ -95,7 +94,6 @@
   border-bottom: 1px solid #e3e5f2;
 }
 .main-question > .answer-choice > li > .text-answer-choice {
-  font-family: SVN-Gilroy-regular;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -136,7 +134,6 @@
   border: none;
   width: 706.4px;
   height: 72px;
-  font-family: SVN-Gilroy-regular;
   font-style: normal;
   font-weight: 400;
   font-size: 21.6px;
