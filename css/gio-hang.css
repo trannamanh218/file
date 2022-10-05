@@ -44,7 +44,7 @@
   display: flex;
 }
 .cart .products-cart ul li .left .img-product {
-  width: 15%;
+  width: 10%;
 }
 .cart .products-cart ul li .left .img-product img {
   width: 83.27px;
@@ -52,9 +52,10 @@
 }
 .cart .products-cart ul li .left .information-product {
   margin: 0px 20px;
-  width: 80%;
+  width: 90%;
 }
 .cart .products-cart ul li .left .information-product .title p {
+  
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
