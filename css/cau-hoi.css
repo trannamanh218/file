@@ -3,14 +3,19 @@
   src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
 }
 @font-face {
-  font-family: SVN-Gilroyy;
+  font-family: SVN-Gilroy;
   src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
+  font-weight: bold;
 }
 @font-face {
   font-family: SVN-Gilroy;
+  src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: SVN-Gilroyy;
   src: url("../fonts/SVN-Gilroy\ Regular.otf");
 }
-
 .container {
   max-width: 1920px;
   background: rgba(247, 247, 252, 1);
@@ -50,8 +55,8 @@
 }
 .main-question > .list-question > ul > li > button > span {
   font-style: normal;
-  font-family: SVN-Gilroyy;
-  font-weight: 700;
+  font-family: SVN-Gilroy;
+  font-weight: bold;
   font-size: 22.0043px;
   line-height: 31px;
   color: #a0a3bd;
@@ -60,19 +65,19 @@
   background: #3d40c6;
 }
 .main-question > .list-question > ul > li:nth-child(1) > button span {
-  color: #FCFCFC;
+  color: #fcfcfc;
 }
-.main-question > .list-question > ul > li:nth-child(3) > button  {
+.main-question > .list-question > ul > li:nth-child(3) > button {
   background: #00cc67;
 }
 .main-question > .list-question > ul > li:nth-child(3) > button span {
-  color: #FCFCFC;
+  color: #fcfcfc;
 }
 .main-question > .list-question > ul > li:nth-child(4) > button {
   background: #ff4c4d;
 }
 .main-question > .list-question > ul > li:nth-child(4) > button span {
-  color: #FCFCFC;
+  color: #fcfcfc;
 }
 .main-question > .text-question {
   width: 55%;
@@ -85,13 +90,13 @@
   margin-bottom: 40px;
 }
 .main-question > .text-question p {
-  font-family: SVN-Gilroy;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 38px;
   text-align: center;
   letter-spacing: 0.75px;
+  font-family: SVN-Gilroyy;
   color: rgba(78, 75, 102, 1);
 }
 .main-question > .answer-choice {
