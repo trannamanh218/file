@@ -1,3 +1,11 @@
+@font-face {
+  font-family: PoppinsVN;
+  src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
+}
+@font-face {
+  font-family: SVN-Gilroy;
+  src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
+}
 .container {
   max-width: 1920px;
   background: rgba(247, 247, 252, 1);
@@ -37,7 +45,7 @@
 }
 .main-question > .list-question > ul > li > button > span {
   font-style: normal;
-  font-family: SVN-Gilroy-regular;
+  font-family: SVN-Gilroy;
   font-weight: 700;
   font-size: 22.0043px;
   line-height: 31px;
@@ -144,9 +152,9 @@
   margin: 0px 72.82px;
 }
 .footer > .button-center > span {
-  font-family: SVN-Gilroy-Regular;
+  font-family: PoppinsVN;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 21.6px;
   line-height: 35px;
   text-align: center;
