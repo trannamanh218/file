@@ -3,7 +3,7 @@
   src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
 }
 @font-face {
-  font-family: SVN-Gilroy;
+  font-family: SVN-Gilroyy;
   src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
 }
 @font-face {
@@ -50,7 +50,7 @@
 }
 .main-question > .list-question > ul > li > button > span {
   font-style: normal;
-  font-family: SVN-Gilroy;
+  font-family: SVN-Gilroyy;
   font-weight: 700;
   font-size: 22.0043px;
   line-height: 31px;
