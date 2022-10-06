@@ -20,14 +20,13 @@
 }
 .main-question > .list-question > ul {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0px;
+  justify-content: center;
   padding: 0px;
-  justify-content: space-between;
 }
 .main-question > .list-question > ul > li {
   list-style: none;
   margin-bottom: 10px;
+  margin-right: 10.36px;
 }
 .main-question > .list-question > ul > li > button {
   border: 1.29437px solid #d9dbe9;
@@ -35,7 +34,10 @@
   width: 111.32px;
   height: 41.42px;
   background: none;
+}
+.main-question > .list-question > ul > li > button > span {
   font-style: normal;
+  font-family: SVN-Gilroy-regular;
   font-weight: 700;
   font-size: 22.0043px;
   line-height: 31px;
@@ -43,18 +45,24 @@
 }
 .main-question > .list-question > ul > li:nth-child(1) > button {
   background: #3d40c6;
-  color: #fcfcfc;
 }
-.main-question > .list-question > ul > li:nth-child(3) > button {
+.main-question > .list-question > ul > li:nth-child(1) > button span {
+  color: #FCFCFC;
+}
+.main-question > .list-question > ul > li:nth-child(3) > button  {
   background: #00cc67;
-  color: #fcfcfc;
+}
+.main-question > .list-question > ul > li:nth-child(3) > button span {
+  color: #FCFCFC;
 }
 .main-question > .list-question > ul > li:nth-child(4) > button {
   background: #ff4c4d;
-  color: #fcfcfc;
+}
+.main-question > .list-question > ul > li:nth-child(4) > button span {
+  color: #FCFCFC;
 }
 .main-question > .text-question {
-  width: 60%;
+  width: 55%;
   margin: auto;
   padding: 38px;
   background: #fcfcfc;
@@ -76,7 +84,7 @@
 .main-question > .answer-choice {
   padding: 0px;
   margin: 0px auto;
-  width: 50%;
+  width: 47%;
   margin-bottom: 50px;
 }
 .main-question > .answer-choice > li {
@@ -113,10 +121,8 @@
   background: none;
 }
 .footer {
-  width: 60%;
-  margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .footer > .icon-next-left,
@@ -135,11 +141,12 @@
   border: none;
   width: 706.4px;
   height: 72px;
+  margin: 0px 72.82px;
 }
 .footer > .button-center > span {
   font-family: SVN-Gilroy-Regular;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 21.6px;
   line-height: 35px;
   text-align: center;
