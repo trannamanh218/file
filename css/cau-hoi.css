@@ -6,6 +6,11 @@
   font-family: SVN-Gilroy;
   src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
 }
+@font-face {
+  font-family: SVN-Gilroy;
+  src: url("../fonts/SVN-Gilroy\ Regular.otf");
+}
+
 .container {
   max-width: 1920px;
   background: rgba(247, 247, 252, 1);
@@ -80,7 +85,7 @@
   margin-bottom: 40px;
 }
 .main-question > .text-question p {
-  font-family: SVN-Gilroy-regular;
+  font-family: SVN-Gilroy;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -111,7 +116,7 @@
 }
 .main-question > .answer-choice > li > .text-answer-choice {
   font-style: normal;
-  font-family: SVN-Gilroy-regular;
+  font-family: SVN-Gilroy;
   font-weight: 600;
   font-size: 20px;
   line-height: 38px;
