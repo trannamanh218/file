@@ -55,7 +55,7 @@
   width: 87%;
 }
 .cart .products-cart ul li .left .information-product .title p {
-  
+  font-family: SVN-Gilroy-regular;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -83,6 +83,7 @@
 }
 .cart .products-cart ul li .left .information-product .piece .left p {
   font-style: normal;
+  font-family: SVN-Gilroy-regular;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -96,6 +97,7 @@
 } 
 .cart .products-cart ul li .left .information-product .piece .right p {
   font-style: normal;
+  font-family: SVN-Gilroy-regular;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
