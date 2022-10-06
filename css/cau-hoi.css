@@ -4,17 +4,18 @@
 }
 @font-face {
   font-family: SVN-Gilroy;
-  src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
+  src: url("../fonts/SVN-Gilroy\ SemiBold.otf") format("truetype");
   font-weight: bold;
 }
 @font-face {
   font-family: SVN-Gilroy;
-  src: url("../fonts/SVN-Gilroy\ SemiBold.otf");
-  font-weight: normal;
+  src: url("../fonts/SVN-Gilroy\ SemiBold.otf") format("truetype");
+  font-weight: 600;
 }
 @font-face {
-  font-family: SVN-Gilroyy;
-  src: url("../fonts/SVN-Gilroy\ Regular.otf");
+  font-family: SVN-Gilroy;
+  src: url("../fonts/SVN-Gilroy\ Regular.otf") format("truetype");
+  font-weight: 400;
 }
 .container {
   max-width: 1920px;
@@ -96,7 +97,7 @@
   line-height: 38px;
   text-align: center;
   letter-spacing: 0.75px;
-  font-family: SVN-Gilroyy;
+  font-family: SVN-Gilroy;
   color: rgba(78, 75, 102, 1);
 }
 .main-question > .answer-choice {
