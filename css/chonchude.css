@@ -118,3 +118,104 @@
   letter-spacing: 0.75px;
   color: #f7f7fc;
 }
+
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    background: #ffffff;
+  }
+  .topic {
+    width: 100%;
+    flex-direction: column;
+  }
+  .topic .left-topic {
+    width: 90% !important;
+    margin: auto !important;
+    margin-top: 55px !important;
+  }
+  .topic .left-topic .text-left-topic {
+    margin: 0px !important;
+  }
+  .topic .left-topic .title-left-topic p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 29px;
+    color: #262338;
+  }
+  .topic .left-topic .text-left-topic p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #262338;
+    margin-bottom: 10px;
+  }
+  .topic .left-topic .title-left-topic,
+  .topic .left-topic .text-left-topic {
+    margin: 0px;
+  }
+  .left-topic {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  .topic .left-topic .img-left-topic {
+    display: none;
+  }
+  .right-topic {
+    width: 100% !important;
+    margin: 0px auto !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .topic .right-topic .seach-right-topic {
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+  }
+  .topic .right-topic .seach-right-topic .icon-seach-right-topic {
+    width: 16px;
+    height: 16px;
+    top: 11px;
+    left: 18px;
+  }
+  .topic .right-topic .seach-right-topic input {
+    font-style: normal;
+    font-family: SVN-Gilroy-regular;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+    color: #6e7191;
+    border-radius: 10px;
+    padding: 0px 10px 0px 40px;
+  }
+  .topic .right-topic .topic-list {
+    width: 90%;
+    margin: 0px;
+  }
+  .topic .right-topic .topic-list .items-topic a p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #a0a3bd;
+  }
+  .topic .right-topic .topic-list .items-topic {
+    margin-top: 30px;
+  }
+  .topic .right-topic .topic-list .items-topic a img {
+    margin: 0px;
+    width: 52px;
+    height: 52px;
+  }
+  .topic .right-topic .bottom-right-topic {
+    margin: 40px 0px;
+    background: #D9DBE9;
+  }
+}
