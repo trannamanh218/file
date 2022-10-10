@@ -149,7 +149,7 @@
 }
 
 /* repponts mobile*/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 576px) {
   .right-login > .title-right-login > .bottom-skip-login {
     display: none;
   }
@@ -157,7 +157,7 @@
     display: none;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 576px) {
   .login {
     flex-direction: column;
     overflow: hidden;

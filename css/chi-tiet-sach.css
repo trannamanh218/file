@@ -389,6 +389,7 @@
   width: 436px;
   height: 73px;
   background: #ff4c4d;
+  display: flex;
 }
 .paragraph-four > .title {
   font-family: SVN-Gilroy-Bold;
@@ -436,8 +437,7 @@
 .details-biboo .suggested-book .box-suggested-book {
   padding-bottom: 20px;
 }
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 576px) {
   .right-login > .title-right-login > .bottom-skip-login {
     display: none;
   }
@@ -445,7 +445,11 @@
     display: none;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 576px) {
+  .header-listen-to-read-books .left-come-back {
+    width: 24px;
+    height: 24px;
+  }
   .col-1a {
     display: none;
   }
@@ -454,6 +458,7 @@
   }
   .listen-to-read-books .header-listen-to-read-books {
     padding: 10px 0px;
+    align-items: center;
   }
   .listen-to-read-books
     .header-listen-to-read-books
@@ -658,14 +663,20 @@
   img {
     vertical-align: super;
   }
-  .paragraph-three > .option-paragraph > .key-Paragraph > .text-key-paragraph {
+  .paragraph-three > .option-paragraph > .key-Paragraph > .text-key-paragraph,
+  .paragraph-four > .option-paragraph > .key-Paragraph > .text-key-paragraph {
     font-weight: 700;
     font-size: 13px;
     line-height: 16px;
   }
-  .paragraph-three > .option-paragraph > .listen-radio {
+  .paragraph-three > .option-paragraph > .listen-radio,
+  .paragraph-four > .option-paragraph > .listen-radio {
     width: 60%;
     height: 40px;
+    display: flex;
+  }
+  .suggested-book .title-suggested-book {
+    margin-bottom: 20px;
   }
   .suggested-book {
     padding-top: 20px !important;
@@ -675,5 +686,39 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 21px;
+  }
+  .accordion-item:first-of-type .accordion-button,
+  .accordion-header > .accordion-button {
+    padding: 25px 0px 15px 0px;
+  }
+  .details-biboo .suggested-book .box-suggested-book {
+    flex-wrap: wrap;
+  }
+  .items-suggested-book {
+    width: 45%;
+    margin: 2px;
+  }
+  .suggested-book
+    .box-suggested-book
+    .items-suggested-book
+    .information-items-suggested-book
+    .title-book {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-top: 0px;
+  }
+  .suggested-book
+    .box-suggested-book
+    .items-suggested-book
+    .information-items-suggested-book
+    .author-book {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
   }
 }

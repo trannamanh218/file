@@ -501,7 +501,7 @@ footer {
 .bottom-footer {
   width: 90%;
   margin: auto;
-  padding: 80px 0px 10px 0px;
+  padding: 20px 0px 10px 0px;
 }
 .about-us {
   margin-right: 0px;
@@ -658,4 +658,26 @@ hr {
   font-size: 17px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.64);
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (max-width: 1024px) {
+  .biboo>.col-2 {
+    display: none;
+  }
+  .biboo>.col-10{
+    width: 100%;
+  }
+  .box-right-biboo > .row>.col-9{
+    width: 100%;
+  }
+  .box-right-biboo > .row>.col-3 {
+    display: none;
+  }
+  .brb-items-left {
+    border-radius: 0px;
+  }
+  footer {
+    display: none;
+  }
 }

@@ -282,7 +282,7 @@ div#timeline .slider .progress {
   z-index: 1;
 }
 div#timeline .slider .progress .pin {
-  background: #3D40C6;
+  background: #3d40c6;
   border-radius: 100px;
   height: 32.87px;
   width: 32.87px;
@@ -290,4 +290,109 @@ div#timeline .slider .progress .pin {
   pointer-events: all;
   right: 0px;
   top: -15px;
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    height: 0px;
+  }
+  .listen-radio .navigation-bar-radio {
+    align-items: flex-end;
+    padding: 0px 0px 30px 0px;
+  }
+  .listen-radio .img-listen-radio {
+    width: 225px;
+    height: 240px;
+  }
+  .listen-radio > .information-listen-radio {
+    margin: 40px 0px 50px 0px;
+  }
+  .listen-radio > .navigation-bar-radio > .left-come-back {
+    width: 24px;
+    height: 24px;
+  }
+  .listen-radio > .navigation-bar-radio > .right-option > .dropdown > .dropdown-toggle {
+    font-size: 30px;
+  }
+  .listen-radio > .information-listen-radio > .title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    width: 80%;
+    margin: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+  .listen-radio > .information-listen-radio > .text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    width: 50%;
+    margin: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+  .range {
+    width: 100%;
+  }
+  div#timeline > span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0px 20px;
+  }
+  div#timeline .slider {
+    height: 4px;
+  }
+  div#timeline .slider .progress .pin {
+    width: 22px;
+    height: 22px;
+    top: -9px;
+    right: -5;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer .left-footer {
+    order: 3;
+    width: 50%;
+    justify-content: space-around;
+  }
+
+  .footer .center-footer {
+    order: 1;
+    width: 100%;
+    margin: 40px 30px;
+    
+  }
+  .footer .right-footer {
+    order: 2;
+    width: 50%;
+    justify-content: space-around;
+  }
+  .footer .left-footer .ebook {
+    margin-right: 0px;
+  }
+  .footer .left-footer .ebook .text-ebook,
+  .footer .left-footer .speed .text-speed,
+  .footer .right-footer .timer .text-timer,
+  .footer .right-footer .table-of-contents .text-table-of-contents {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .right-footer .table-of-contents {
+    margin-left: 0px;
+  }
+  .footer .left-footer .ebook .icon-ebook,
+  .footer .left-footer .speed .icon-speed,
+  .footer .right-footer .timer .icon-timer,
+  .footer .right-footer .table-of-contents .icon-table-of-contents {
+    background: none;
+  }
 }
