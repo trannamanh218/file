@@ -1,3 +1,16 @@
+
+.left-books-listen-a-lott .title-book-topic a p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.book-topic p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
 .box-left-biboo {
   align-items: center;
   text-align: center;
@@ -659,25 +672,19 @@ hr {
   line-height: 24px;
   color: rgba(255, 255, 255, 0.64);
 }
+.biboo {
+  display: flex;
+}
+.biboo > .box-left-biboo {
+  width: 15%;
+}
+.biboo > .brb-items-left {
+  width: 65%;
+}
+.biboo > .brb-items-right {
+  width: 20%;
+}
 @media only screen and (min-width: 1024px) {
 }
 @media only screen and (max-width: 1024px) {
-  .biboo>.col-2 {
-    display: none;
-  }
-  .biboo>.col-10{
-    width: 100%;
-  }
-  .box-right-biboo > .row>.col-9{
-    width: 100%;
-  }
-  .box-right-biboo > .row>.col-3 {
-    display: none;
-  }
-  .brb-items-left {
-    border-radius: 0px;
-  }
-  footer {
-    display: none;
-  }
 }

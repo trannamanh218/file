@@ -721,4 +721,9 @@
     font-size: 13px;
     line-height: 20px;
   }
+  .box-suggested-book> .items-suggested-book:nth-child(3),
+  .box-suggested-book> .items-suggested-book:nth-child(4),
+  .box-suggested-book> .items-suggested-book:nth-child(5) {
+     display: none;
+  }
 }
