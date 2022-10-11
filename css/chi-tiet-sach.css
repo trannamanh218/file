@@ -486,6 +486,9 @@
     margin: auto;
     margin-bottom: 15px;
   }
+  .book-details-biboo .left-book-details-biboo img{
+    margin-left: 20px;
+  }
   .ratings-listen-to-read-books {
     margin: 0px;
     margin-left: 10px;
