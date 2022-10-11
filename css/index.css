@@ -697,7 +697,7 @@ hr {
   justify-content: space-between;
   background: #fcfcfc;
   align-items: center;
-  padding: 15px 20px 30px 20px;
+  padding: 10px 20px 10px 20px;
   position: fixed;
   left: 0;
   right: 0;
@@ -897,7 +897,6 @@ hr {
   footer {
     padding: 0px;
     flex-direction: column;
-    margin-bottom: 70px;
   }
   .corporate-email {
     justify-content: center;
