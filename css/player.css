@@ -357,6 +357,7 @@ div#timeline .slider .progress .pin {
   }
   .footer {
     flex-wrap: wrap;
+    padding-top: 0px;
   }
   .footer .left-footer {
     order: 3;
@@ -367,8 +368,9 @@ div#timeline .slider .progress .pin {
   .footer .center-footer {
     order: 1;
     width: 100%;
-    margin: 40px 30px;
-    
+    padding: 40px 0px;
+    border-bottom: 1px solid rgb(234, 232, 232);
+    padding: 40px 20px ;
   }
   .footer .right-footer {
     order: 2;
