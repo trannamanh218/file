@@ -39,7 +39,7 @@
   width: 600px;
 }
 .listen-to-read-books {
-  background-image: url("/img/Rectangle.png");
+  background-image: url("../img/Rectangle.png");
   background-repeat: no-repeat;
 }
 .listen-to-read-books .header-listen-to-read-books {
@@ -487,7 +487,7 @@
     margin-bottom: 15px;
   }
   .book-details-biboo .left-book-details-biboo img{
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .ratings-listen-to-read-books {
     margin: 0px;
