@@ -305,23 +305,27 @@ div#timeline .slider .progress .pin {
   }
   .listen-radio .navigation-bar-radio {
     align-items: flex-end;
-    padding: 0px 0px 115px 0px;
+    padding: 0px 0px 74px 0px;
   }
   .listen-radio .img-listen-radio {
     width: 225px;
     height: 240px;
   }
-  .listen-radio .img-listen-radio>img {
+  .listen-radio .img-listen-radio > img {
     margin-left: 20px;
   }
   .listen-radio > .information-listen-radio {
-    margin: 40px 0px 50px 0px;
+    margin: 100px 0px 50px 0px;
   }
   .listen-radio > .navigation-bar-radio > .left-come-back {
     width: 24px;
     height: 24px;
   }
-  .listen-radio > .navigation-bar-radio > .right-option > .dropdown > .dropdown-toggle {
+  .listen-radio
+    > .navigation-bar-radio
+    > .right-option
+    > .dropdown
+    > .dropdown-toggle {
     font-size: 30px;
   }
   .listen-radio > .information-listen-radio > .title {
@@ -373,11 +377,22 @@ div#timeline .slider .progress .pin {
     width: 50%;
     justify-content: space-around;
   }
+  .center-footer > .center-play {
+    width: 70px;
+    height: 70px;
+  }
+  .center-footer > .replay-left,
+  .center-footer > .skip-left,
+  .center-footer > .skip-right,
+  .center-footer > .replay-right {
+    width: 40px;
+    height: 40px;
+  }
   .footer .center-footer {
     order: 1;
     width: 100%;
-    border-bottom: 1px solid rgb(234, 232, 232);
-    padding: 60px 20px ;
+    border-bottom: 3px solid rgb(245, 245, 245);
+    padding: 60px 20px;
   }
   .footer .right-footer {
     order: 2;
@@ -394,6 +409,7 @@ div#timeline .slider .progress .pin {
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
+    margin-bottom: 10px;
   }
   .right-footer .table-of-contents {
     margin-left: 0px;
