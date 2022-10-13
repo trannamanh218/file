@@ -737,6 +737,9 @@ hr {
   .menu-mobi {
     display: none;
   }
+  .list-a-lot-brb-items-right {
+    display: none;
+  }
 }
 @media only screen and (max-width: 574px) {
   .biboo {
@@ -758,6 +761,7 @@ hr {
   }
   .box-suggested-book {
     overflow: hidden;
+    padding-bottom: 20px;
   }
   .menu-mobi {
     width: 100% !important;
@@ -894,6 +898,27 @@ hr {
   .button-icon-left {
     display: none !important;
   }
+  .title-listen-a-lot > p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    margin: 20px 0px;
+  }
+  .book-topic p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .left-books-listen-a-lott .title-book-topic a p {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .left-books-listen-a-lott .author-book p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
   footer {
     padding: 0px;
     flex-direction: column;
@@ -908,6 +933,7 @@ hr {
   }
   .company-policy .items-company-policy {
     margin: 15px 0px;
+    font-size: 16px;
   }
   .company-app {
     display: flex;
@@ -927,5 +953,56 @@ hr {
     justify-content: center;
     align-items: center;
     justify-content: center;
+  }
+  .right-books-listen-a-lott {
+    width: 40%;
+    margin-right: 20px;
+  }
+  .left-books-listen-a-lott {
+    width: 60%;
+  }
+  .book-topic {
+    width: 80%;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+  }
+  .button-see-more {
+    background: none;
+    margin-top: 10px;
+    border: 1px solid #3c0594;
+    border-radius: 30px;
+    width: 70%;
+    padding: 8px 0px;
+  }
+  .button-see-more > span {
+    color: #3c0594;
+  }
+  .suggested-book .title-suggested-book {
+    margin-bottom: 20px;
+  }
+  .about-us .company-name .title-company-name p {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+  }
+  .about-us .company-origin {
+    font-size: 16px;
+  }
+  .about-us .company-address .text-company-address,
+  .about-us .corporate-email .text-corporate-email {
+    font-size: 16px;
+  }
+  .company-policy .title-company-policy {
+    font-size: 18px;
+  }
+  .company-app .title-company-app, .connection .title-connection, .connection .title-quick-link {
+    font-size: 18px;
+  }
+  .logo-bottom-footer {
+    margin-bottom: 20px;
+  }
+  .logo-bottom-footer img {
+    width: 50%;
   }
 }
